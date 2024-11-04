@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.moviesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.movieContainer {
+    display:inline-flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    width: 250px;
+}
